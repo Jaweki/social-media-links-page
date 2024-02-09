@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
-      screen: {
+      screens: {
         mobile: "375px",
         desktop: "1440px",
       },
@@ -14,11 +18,11 @@ export default {
         neutral: {
           white: "hsl(0, 0%, 100%)",
           grey: "hsl(0, 0%, 20%)",
-          'dark-grey': "hsl(0, 0%, 12%)",
-          'off-black': "hsl(0, 0%, 8%)",
-        }
+          "dark-grey": "hsl(0, 0%, 12%)",
+          "off-black": "hsl(0, 0%, 8%)",
+        },
       },
-      fontSize:{
+      fontSize: {
         paragraph: "14px",
       },
       fontFamily: {
@@ -28,9 +32,8 @@ export default {
         regular: "400",
         medium: "600",
         bold: "700",
-      }
+      },
     },
   },
   plugins: [],
-}
-
+};

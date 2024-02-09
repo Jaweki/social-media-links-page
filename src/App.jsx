@@ -1,34 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Button from "./components/Button"
 
 function App() {
-  const [count, setCount] = useState(0)
+  const buttonText= ["Github", "Frontend Mentor", "LinkedIn","Twitter", "Instagram"]
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+    <main className="w-screen h-screen bg-neutral-off-black flex justify-center items-center">
+      <div className="h-[65%] w-[320px] bg-neutral-dark-grey rounded-lg flex flex-col items-center justify-center space-y-7 p-6" >
+
+        <img src={"./images/avatar-jessica.jpeg"} className="rounded-full h-20 w-20"/>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          <h1 className="text-xl font-bold text-white">Jessica Randall</h1>
+          <span className="text-xs font-bold text-primary-green">
+          London, United Kingdom
+          </span>
         </p>
+
+        <p className="text-xs text-white"> "Front-end developer and avid reader."</p>
+        <div className="flex flex-col w-full space-y-3">
+
+          { buttonText.map((text) => <Button text={text} />)
+          }
+        </div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </main>
   )
 }
 
