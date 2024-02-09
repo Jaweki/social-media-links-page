@@ -15,7 +15,7 @@ function App() {
           </span>
         </p>
 
-        <p className="text-xs text-white"> "Front-end developer and avid reader."</p>
+        <p className="text-xs text-white"> &ldquo;Front-end developer and avid reader.&rdquo;</p>
         <div className="flex flex-col w-full space-y-3">
 
           { buttonText.map((text) => <Button key={text} text={text} />)
