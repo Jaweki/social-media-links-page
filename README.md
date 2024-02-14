@@ -53,7 +53,13 @@ Users should be able to:
 
 ## Acknowledgements
 
-This task was done with cooperation in a pair programming session with [Terri Tse](https://linkedin.com/in/territse). Pair Programming session organized by chingu.io and This project challenge guided and design resources provided by Frontend Mentor.
+This task was done with co-operation in a pair programming session with [Terri Tse](https://github.com/hiulam1). Pair Programming session organized by chingu.io and This project challenge guided and design resources provided by Frontend Mentor.
+
+Pair programming session was prepared by [Chingu](https://www.chingu.io/) a web developers forum, that helps in boost developer growth.
+Chingu organizes weekly planned pair programming session which developer enroll on weekly basis, and Voyagers which developers join in teams to do a much complex tasks.
+Chingu is free to Join and participate, and has some premium perks it offers, which are quite affordable. [see their website for more...](https://www.chingu.io/)
+
+The challenge undertaken in this Repo project, was initially provided by [Frontend Mentor](https://www.frontendmentor.io). Frontend mentor provides chllenges at different developer levels from junior to intermidiate to advanced; and of course, there is free and premium versions of the challenges, with premium versions offering figma sketches. For free versions only design templates are given as snapshots.
 
 ## More
 
